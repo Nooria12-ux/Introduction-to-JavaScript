@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>JavaScript Variables</h1>
+    <h4>Sum of two Numbers</h4>
+    <p id="sum"></p>
+    <h4>Substraction of two Numbers</h4>
+    <p id="sub"></p>
+    <h4>Multiplication of two Numbers</h4>
+    <p id="mult"></p>
+    <h4>Division of two Numbers</h4>
+    <p id="div"></p>
+    <script>
+      var num1, num2, sum, sub, mult, div;
+      num1 = 55;
+      num2 = 5;
+      sum = num1 + num2;
+      sub = num1 - num2;
+      mult = num1 * num2;
+      div = num1 / num2;
+      document.getElementById("sum").innerHTML = "The total Sum is:" + sum;
+      document.getElementById("sub").innerHTML =
+        "The total Substraction is:" + sub;
+      document.getElementById("mult").innerHTML =
+        "The total Multiplication is:" + mult;
+      document.getElementById("div").innerHTML = "The total Division is:" + div;
+    </script>
+  </body>
+</html>
